@@ -1,0 +1,21 @@
+{
+  "name": "Column_to_Rows",
+  "version": "0.0.1",
+  "description": "for Pilgrim",
+  "main": "index.js",
+  "repository": "https://github.com/splex7/cloumn_to_rows.git",
+  "author": "splex7",
+  "license": "MIT",
+  "private": null,
+  "bin": "bin.js",
+  "dependencies": {
+    "csvtoarray": "^1.1.0",
+    "prompts": "^2.3.2"
+  },
+  "scripts": {
+    "build": "rm -rf build && pkg . --out-path build"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  }
+}
